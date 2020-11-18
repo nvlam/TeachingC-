@@ -6,3 +6,5 @@ E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.Properties.Re
 E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.csproj.GenerateResource.Cache
 E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.exe
 E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.pdb
