@@ -40,6 +40,25 @@ namespace Mang2Chieu
             }
         }
 
+        int GiaTriLonNhat(int soDong,int soCot) { 
+            int giaTriLonNhat=int2Arr[0,0];
+            for (int i = 1; i < soDong; i++)
+                for (int j = 1; j < soCot; j++)
+                    if (giaTriLonNhat < int2Arr[i, j])
+                        giaTriLonNhat = int2Arr[i, j];
+            return giaTriLonNhat;
+        }
+
+        int GiaTriNhoNhat(int soDong, int soCot)
+        {
+            int giaTriNhoNhat = int2Arr[0, 0];
+            for (int i = 1; i < soDong; i++)
+                for (int j = 1; j < soCot; j++)
+                    if (int2Arr[i, j] < giaTriNhoNhat)
+                        giaTriNhoNhat = int2Arr[i, j];
+            return giaTriNhoNhat;
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             KhoiTaoMang();
@@ -48,6 +67,20 @@ namespace Mang2Chieu
         private void btnHienThi_Click(object sender, EventArgs e)
         {
             HienThiMang2Chieu(4, 5);
+        }
+
+        private void btnLonNhat_Click(object sender, EventArgs e)
+        {
+            lblGiaTriLonNhat.Text = "Gia tri lon nhat: \n";
+            lblGiaTriLonNhat.Text += GiaTriLonNhat(4, 5).ToString();
+        }
+
+        private void btnHienThiNhoNhat_Click(object sender, EventArgs e)
+        {
+
+            lblGiaTriNhoNhat.Text = "Gia tri nho nhat: \n";
+            int nhoNhat = GiaTriNhoNhat(4,5);
+            lblGiaTriNhoNhat.Text += nhoNhat.ToString();
         }
     }
 }
