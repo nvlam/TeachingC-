@@ -126,11 +126,11 @@ namespace Mang2Chieu
             
             lblChan.Text="So chan: \n";
             lblLe.Text="So le: \n";
-            foreach(int e in int2Arr)
-                if (e % 2 == 0)
-                    lblChan.Text += e.ToString();
+            foreach(int i in int2Arr)
+                if (i % 2 == 0)
+                    lblChan.Text += i.ToString()+" ";
                 else
-                    lblLe.Text += e.ToString();
+                    lblLe.Text += i.ToString()+ " ";
 
         }
     }
