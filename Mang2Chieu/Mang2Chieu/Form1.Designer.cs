@@ -34,6 +34,10 @@
             this.btnLonNhat = new System.Windows.Forms.Button();
             this.lblGiaTriNhoNhat = new System.Windows.Forms.Label();
             this.btnHienThiNhoNhat = new System.Windows.Forms.Button();
+            this.lblTong = new System.Windows.Forms.Label();
+            this.lblTrungBinh = new System.Windows.Forms.Label();
+            this.btnTinhTong = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblHienThi
@@ -47,7 +51,7 @@
             // 
             // btnHienThi
             // 
-            this.btnHienThi.Location = new System.Drawing.Point(316, 36);
+            this.btnHienThi.Location = new System.Drawing.Point(316, 2);
             this.btnHienThi.Name = "btnHienThi";
             this.btnHienThi.Size = new System.Drawing.Size(75, 23);
             this.btnHienThi.TabIndex = 1;
@@ -66,7 +70,7 @@
             // 
             // btnLonNhat
             // 
-            this.btnLonNhat.Location = new System.Drawing.Point(316, 81);
+            this.btnLonNhat.Location = new System.Drawing.Point(316, 31);
             this.btnLonNhat.Name = "btnLonNhat";
             this.btnLonNhat.Size = new System.Drawing.Size(75, 47);
             this.btnLonNhat.TabIndex = 3;
@@ -85,7 +89,7 @@
             // 
             // btnHienThiNhoNhat
             // 
-            this.btnHienThiNhoNhat.Location = new System.Drawing.Point(316, 155);
+            this.btnHienThiNhoNhat.Location = new System.Drawing.Point(316, 84);
             this.btnHienThiNhoNhat.Name = "btnHienThiNhoNhat";
             this.btnHienThiNhoNhat.Size = new System.Drawing.Size(75, 58);
             this.btnHienThiNhoNhat.TabIndex = 5;
@@ -93,11 +97,53 @@
             this.btnHienThiNhoNhat.UseVisualStyleBackColor = true;
             this.btnHienThiNhoNhat.Click += new System.EventHandler(this.btnHienThiNhoNhat_Click);
             // 
+            // lblTong
+            // 
+            this.lblTong.AutoSize = true;
+            this.lblTong.Location = new System.Drawing.Point(18, 185);
+            this.lblTong.Name = "lblTong";
+            this.lblTong.Size = new System.Drawing.Size(35, 13);
+            this.lblTong.TabIndex = 6;
+            this.lblTong.Text = "label1";
+            // 
+            // lblTrungBinh
+            // 
+            this.lblTrungBinh.AutoSize = true;
+            this.lblTrungBinh.Location = new System.Drawing.Point(18, 215);
+            this.lblTrungBinh.Name = "lblTrungBinh";
+            this.lblTrungBinh.Size = new System.Drawing.Size(35, 13);
+            this.lblTrungBinh.TabIndex = 7;
+            this.lblTrungBinh.Text = "label1";
+            // 
+            // btnTinhTong
+            // 
+            this.btnTinhTong.Location = new System.Drawing.Point(316, 166);
+            this.btnTinhTong.Name = "btnTinhTong";
+            this.btnTinhTong.Size = new System.Drawing.Size(75, 23);
+            this.btnTinhTong.TabIndex = 8;
+            this.btnTinhTong.Text = "Tinh tong";
+            this.btnTinhTong.UseVisualStyleBackColor = true;
+            this.btnTinhTong.Click += new System.EventHandler(this.btnTinhTong_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(316, 204);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(95, 23);
+            this.button1.TabIndex = 9;
+            this.button1.Text = "Tinh Trung binh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(423, 262);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnTinhTong);
+            this.Controls.Add(this.lblTrungBinh);
+            this.Controls.Add(this.lblTong);
             this.Controls.Add(this.btnHienThiNhoNhat);
             this.Controls.Add(this.lblGiaTriNhoNhat);
             this.Controls.Add(this.btnLonNhat);
@@ -120,6 +166,10 @@
         private System.Windows.Forms.Button btnLonNhat;
         private System.Windows.Forms.Label lblGiaTriNhoNhat;
         private System.Windows.Forms.Button btnHienThiNhoNhat;
+        private System.Windows.Forms.Label lblTong;
+        private System.Windows.Forms.Label lblTrungBinh;
+        private System.Windows.Forms.Button btnTinhTong;
+        private System.Windows.Forms.Button button1;
     }
 }
 

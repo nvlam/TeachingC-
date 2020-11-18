@@ -69,6 +69,17 @@ namespace Mang2Chieu
             HienThiMang2Chieu(4, 5);
         }
 
+        public int Tong2Chieu()
+        {
+            int tong = 0;
+            foreach (int e in int2Arr) // doi voi moi phan tu e trong mang 2 chieu int2Arr
+                tong += e;
+            return tong;
+        }
+        public double TBCong2Chieu() {
+            return Tong2Chieu() / (4 * 5); // co the lay so phan tu mang 2 chieu int2Arr.Length
+        }
+
         private void btnLonNhat_Click(object sender, EventArgs e)
         {
             lblGiaTriLonNhat.Text = "Gia tri lon nhat: \n";
@@ -81,6 +92,16 @@ namespace Mang2Chieu
             lblGiaTriNhoNhat.Text = "Gia tri nho nhat: \n";
             int nhoNhat = GiaTriNhoNhat(4,5);
             lblGiaTriNhoNhat.Text += nhoNhat.ToString();
+        }
+
+        private void btnTinhTong_Click(object sender, EventArgs e)
+        {
+            lblTong.Text = Tong2Chieu().ToString();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            lblTrungBinh.Text = TBCong2Chieu().ToString("#.##");
         }
     }
 }
