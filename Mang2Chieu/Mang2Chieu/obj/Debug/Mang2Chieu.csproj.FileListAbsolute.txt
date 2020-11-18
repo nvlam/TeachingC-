@@ -1,0 +1,8 @@
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\bin\Debug\Mang2Chieu.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\bin\Debug\Mang2Chieu.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\Mang2Chieu.Form1.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\Mang2Chieu.Properties.Resources.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\Mang2Chieu.csproj.GenerateResource.Cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\Mang2Chieu.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\Mang2Chieu\Mang2Chieu\obj\Debug\Mang2Chieu.pdb

@@ -29,9 +29,25 @@ namespace Mang2Chieu
                 }
         }
 
+        public void HienThiMang2Chieu(int soDong, int soCot) {
+            lblHienThi.Text = "Cac phan tu mang 2 chieu: \n";
+            for (int i = 0; i < soDong; i++)
+            {
+                for (int j = 0; j < soCot; j++)
+                    lblHienThi.Text += s2Arr[i, j]+" ";
+
+                lblHienThi.Text += "\n";
+            }
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            KhoiTaoMang();
+        }
 
+        private void btnHienThi_Click(object sender, EventArgs e)
+        {
+            HienThiMang2Chieu(4, 5);
         }
     }
 }
