@@ -38,6 +38,9 @@
             this.lblTrungBinh = new System.Windows.Forms.Label();
             this.btnTinhTong = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.lblChan = new System.Windows.Forms.Label();
+            this.lblLe = new System.Windows.Forms.Label();
+            this.btnInChanLe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblHienThi
@@ -51,7 +54,7 @@
             // 
             // btnHienThi
             // 
-            this.btnHienThi.Location = new System.Drawing.Point(316, 2);
+            this.btnHienThi.Location = new System.Drawing.Point(365, 7);
             this.btnHienThi.Name = "btnHienThi";
             this.btnHienThi.Size = new System.Drawing.Size(75, 23);
             this.btnHienThi.TabIndex = 1;
@@ -70,7 +73,7 @@
             // 
             // btnLonNhat
             // 
-            this.btnLonNhat.Location = new System.Drawing.Point(316, 31);
+            this.btnLonNhat.Location = new System.Drawing.Point(365, 36);
             this.btnLonNhat.Name = "btnLonNhat";
             this.btnLonNhat.Size = new System.Drawing.Size(75, 47);
             this.btnLonNhat.TabIndex = 3;
@@ -89,7 +92,7 @@
             // 
             // btnHienThiNhoNhat
             // 
-            this.btnHienThiNhoNhat.Location = new System.Drawing.Point(316, 84);
+            this.btnHienThiNhoNhat.Location = new System.Drawing.Point(365, 89);
             this.btnHienThiNhoNhat.Name = "btnHienThiNhoNhat";
             this.btnHienThiNhoNhat.Size = new System.Drawing.Size(75, 58);
             this.btnHienThiNhoNhat.TabIndex = 5;
@@ -117,7 +120,7 @@
             // 
             // btnTinhTong
             // 
-            this.btnTinhTong.Location = new System.Drawing.Point(316, 166);
+            this.btnTinhTong.Location = new System.Drawing.Point(365, 171);
             this.btnTinhTong.Name = "btnTinhTong";
             this.btnTinhTong.Size = new System.Drawing.Size(75, 23);
             this.btnTinhTong.TabIndex = 8;
@@ -127,7 +130,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(316, 204);
+            this.button1.Location = new System.Drawing.Point(365, 209);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(95, 23);
             this.button1.TabIndex = 9;
@@ -135,11 +138,42 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // lblChan
+            // 
+            this.lblChan.AutoSize = true;
+            this.lblChan.Location = new System.Drawing.Point(18, 255);
+            this.lblChan.Name = "lblChan";
+            this.lblChan.Size = new System.Drawing.Size(71, 13);
+            this.lblChan.TabIndex = 10;
+            this.lblChan.Text = "Phan tu chan";
+            // 
+            // lblLe
+            // 
+            this.lblLe.AutoSize = true;
+            this.lblLe.Location = new System.Drawing.Point(12, 315);
+            this.lblLe.Name = "lblLe";
+            this.lblLe.Size = new System.Drawing.Size(55, 13);
+            this.lblLe.TabIndex = 11;
+            this.lblLe.Text = "Phan tu le";
+            // 
+            // btnInChanLe
+            // 
+            this.btnInChanLe.Location = new System.Drawing.Point(332, 255);
+            this.btnInChanLe.Name = "btnInChanLe";
+            this.btnInChanLe.Size = new System.Drawing.Size(108, 42);
+            this.btnInChanLe.TabIndex = 12;
+            this.btnInChanLe.Text = "In chan, le";
+            this.btnInChanLe.UseVisualStyleBackColor = true;
+            this.btnInChanLe.Click += new System.EventHandler(this.btnInChanLe_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(423, 262);
+            this.ClientSize = new System.Drawing.Size(463, 363);
+            this.Controls.Add(this.btnInChanLe);
+            this.Controls.Add(this.lblLe);
+            this.Controls.Add(this.lblChan);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnTinhTong);
             this.Controls.Add(this.lblTrungBinh);
@@ -170,6 +204,9 @@
         private System.Windows.Forms.Label lblTrungBinh;
         private System.Windows.Forms.Button btnTinhTong;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Label lblChan;
+        private System.Windows.Forms.Label lblLe;
+        private System.Windows.Forms.Button btnInChanLe;
     }
 }
 

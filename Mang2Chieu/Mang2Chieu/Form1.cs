@@ -11,8 +11,24 @@ namespace Mang2Chieu
 {
     public partial class Form1 : Form
     {
-        int[,] int2Arr=new int[4,5];
+        //int[,] array2D = new int[,] { { 1, 2 }, { 3, 4 }, { 5, 6 }, { 7, 8 } };
+        const int soDong = 4;
+        const int soCot = 5;
+        int[,] int2Arr=new int[,] {{4,5,8,12,10},
+        {6,8,1,4,6},
+        {8,12,6,3,5},
+        {12, 15, 18, 22, 13}
+        };
         string[,] s2Arr = new string[4, 5];
+
+        public void ChepMang()
+        {
+            for(int i=0;i<soDong;i++)
+                for (int j = 0; j < soCot; j++)
+                {
+                    s2Arr[i, j] = int2Arr[i, j].ToString();
+                }
+        }
 
         public Form1()
         {
@@ -61,7 +77,8 @@ namespace Mang2Chieu
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            KhoiTaoMang();
+           // KhoiTaoMang();
+            ChepMang();
         }
 
         private void btnHienThi_Click(object sender, EventArgs e)
@@ -102,6 +119,19 @@ namespace Mang2Chieu
         private void button1_Click(object sender, EventArgs e)
         {
             lblTrungBinh.Text = TBCong2Chieu().ToString("#.##");
+        }
+
+        private void btnInChanLe_Click(object sender, EventArgs e)
+        {
+            
+            lblChan.Text="So chan: \n";
+            lblLe.Text="So le: \n";
+            foreach(int e in int2Arr)
+                if (e % 2 == 0)
+                    lblChan.Text += e.ToString();
+                else
+                    lblLe.Text += e.ToString();
+
         }
     }
 }
