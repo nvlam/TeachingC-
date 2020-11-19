@@ -1,0 +1,5 @@
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuMang\XoaPhanTuMang\bin\Debug\XoaPhanTuMang.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuMang\XoaPhanTuMang\bin\Debug\XoaPhanTuMang.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuMang\XoaPhanTuMang\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuMang\XoaPhanTuMang\obj\Debug\XoaPhanTuMang.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuMang\XoaPhanTuMang\obj\Debug\XoaPhanTuMang.pdb
