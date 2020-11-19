@@ -68,6 +68,15 @@ namespace SplitWords
             }
         }
 
+        public void HienThiMang()
+        {
+            lblOutPut.Text = "Cac phan tu mang: \n";
+            for(int i=0;i<soPT;i++)
+            {
+                lblOutPut.Text += intArr[i].ToString() + " ";
+            }
+        }
+
         private void btnTong_Click(object sender, EventArgs e)
         {
             lblTong.Text = "Tong: \n";
@@ -89,6 +98,59 @@ namespace SplitWords
         private void btnNhoNhat_Click(object sender, EventArgs e)
         {
             lblNhoNhat.Text="Gia tri nho nhat: " + GiaTriNhoNhat();
+        }
+
+        public void Them(int x, int pos)
+        {
+            //doi cac phan tu qua phai
+            for (int i = soPT; i > pos; i--)
+            {
+                intArr[i] = intArr[i - 1];
+            }
+            intArr[pos] = x;
+            soPT++;
+        }
+
+        public void Xoa(int pos) { 
+        // doi qua trai de len vi tri muo xoa
+            for (int i = pos; i < soPT-1; i++)
+                intArr[i] = intArr[i + 1];
+            //giam so phan tu 1
+            --soPT;
+        }
+
+        public int TimKiem(int x)
+        {
+            int vitri = -1;
+            for (int i = 0; i < soPT; i++)
+                if (intArr[i] == x)
+                {
+                    vitri = i;
+                    break;//thoat khoi vong lap
+                }
+
+            return vitri;
+        }
+        public void XoaPT(int x)
+    {
+        int pos = TimKiem(x);
+            if(pos!=-1)
+                Xoa(pos);
+    }
+
+        private void btnThemMoi_Click(object sender, EventArgs e)
+        {
+            int ptMoi = int.Parse(txtPhanTuCanThem.Text.ToString().Trim());
+            int pos=int.Parse(txtViTriThem.Text.ToString().Trim());
+            Them(ptMoi, pos);
+            HienThiMang();
+        }
+
+        private void btnXoa_Click(object sender, EventArgs e)
+        {
+            int x = int.Parse(txtPhanTuXoa.Text.ToString().Trim());
+            XoaPT(x);
+            HienThiMang();
         }
     }
 }

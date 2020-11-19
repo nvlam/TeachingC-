@@ -8,3 +8,9 @@ E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.exe
 E:\KHOA CNTT\Lam\Csharp\SplitWords\SplitWords\obj\Debug\SplitWords.pdb
 E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.exe
 E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\bin\Debug\SplitWords.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\bin\Debug\SplitWords.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.Form1.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.Properties.Resources.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\SplitWords\SplitWords\obj\Debug\SplitWords.csproj.GenerateResource.Cache
