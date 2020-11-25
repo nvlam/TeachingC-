@@ -1,0 +1,16 @@
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\bin\Debug\ArrSoChanLe.exe
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\bin\Debug\ArrSoChanLe.pdb
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.Form1.resources
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.Properties.Resources.resources
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.csproj.GenerateResource.Cache
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.exe
+E:\KHOA CNTT\Lam\Csharp\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\bin\Debug\ArrSoChanLe.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\bin\Debug\ArrSoChanLe.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.Form1.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.Properties.Resources.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\ArrSoChanLe\ArrSoChanLe\obj\Debug\ArrSoChanLe.csproj.GenerateResource.Cache
