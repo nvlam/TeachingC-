@@ -1,0 +1,8 @@
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\bin\Debug\XoaPhanTuLon_NhoNhat.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\bin\Debug\XoaPhanTuLon_NhoNhat.pdb
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\ResolveAssemblyReference.cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\XoaPhanTuLon_NhoNhat.Form1.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\XoaPhanTuLon_NhoNhat.Properties.Resources.resources
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\XoaPhanTuLon_NhoNhat.csproj.GenerateResource.Cache
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\XoaPhanTuLon_NhoNhat.exe
+E:\KHOA CNTT\Lam\gitHub\TeachingC-\XoaPhanTuLon_NhoNhat\XoaPhanTuLon_NhoNhat\obj\Debug\XoaPhanTuLon_NhoNhat.pdb
